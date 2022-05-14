@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pfe.daricom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_red"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_red"
+        android:supportsRtl="true"
+        android:theme="@style/CustomeTheme">
+        <activity
+            android:name=".ui.SendRequest.SendRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AboutUs.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.adDetails.AdDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.addNewAd.AddNewAdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.connect.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.connect.ConnectActivity"
+            android:exported="false"
+            android:theme="@style/CustomeTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
